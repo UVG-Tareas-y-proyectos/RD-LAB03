@@ -59,7 +59,7 @@ permite el enunciado, ya que ese modo no se usa para probar dinamismo).
 `topo-example.txt` y `names-example.txt` siguen el formato del anexo del
 lab. `addresses-example.txt` es nuestro, mapea cada nodo a un `host:puerto`
 local y solo sirve para las pruebas por socket, no es parte del protocolo
-oficial.
+oficial
 
 ## Protocolo
 
