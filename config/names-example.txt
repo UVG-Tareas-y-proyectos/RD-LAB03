@@ -1,0 +1,10 @@
+{
+  "type": "names",
+  "config": {
+    "A": "nodoA@lab3.local",
+    "B": "nodoB@lab3.local",
+    "C": "nodoC@lab3.local",
+    "D": "nodoD@lab3.local",
+    "E": "nodoE@lab3.local"
+  }
+}
