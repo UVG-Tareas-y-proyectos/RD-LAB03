@@ -69,13 +69,3 @@ Cada paquete es un JSON con los campos `proto`, `type`, `from`, `to`, `ttl`,
 quien lo esta reenviando, para que el vecino que lo recibe sepa por donde
 le llego (sin eso no se puede excluir al vecino correcto al hacer
 flooding).
-
-## Pruebas
-
-```
-python tests/test_routing.py
-```
-
-Cubre el calculo de Dijkstra, la convergencia de LSR y DVR, y el manejo de
-headers del paquete. No prueba los sockets en si (eso se probo a mano
-levantando varios nodos).
