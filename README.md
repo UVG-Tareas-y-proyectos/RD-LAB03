@@ -1,10 +1,5 @@
 # Lab 3 - Algoritmos de Enrutamiento
 
-Implementacion de los algoritmos de ruteo pedidos en el lab: Flooding, Link
-State Routing (Dijkstra + Flooding) y Distance Vector Routing. Por ahora la
-conexion entre nodos es por sockets TCP locales, como permite el enunciado
-mientras no esta arriba el servidor XMPP.
-
 ## Estructura
 
 ```
@@ -84,12 +79,3 @@ python tests/test_routing.py
 Cubre el calculo de Dijkstra, la convergencia de LSR y DVR, y el manejo de
 headers del paquete. No prueba los sockets en si (eso se probo a mano
 levantando varios nodos).
-
-## Lo que falta / limitaciones conocidas
-
-- No hay deteccion de vecinos caidos por timeout, el nodo solo reacciona a
-  lo que le llega. Para "adaptarse a nodos caidos" como pide el enunciado
-  faltaria eso.
-- El costo de los enlaces esta fijo en 1 para todos, no se mide el delay
-  real con los hello.
-- Falta la conexion via XMPP (fase 2 del lab, cuando este el servidor).
